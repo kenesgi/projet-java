@@ -8,7 +8,7 @@ public class Application {
 		//new Appli();
 		Runnable r= new Runnable(){
 			public void run(){
-				new Menu();
+				new Accueil();
 			}
 		};
 		SwingUtilities.invokeLater(r);
